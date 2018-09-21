@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>De Rekenspel</title>
+	<link rel="stylesheet" type="text/css" href="styleReken.css">
+</head>
+<body>
+	<h1>Hoi, leuk dat je mijn rekenspel wil spelen, druk op dit knop om te beginnen.</h1>
+	
+	<div class="div1">
+		<button type="button" id="button1" onclick="start()" >Start</button>
+	</div>
+	<script type="text/javascript">
+		function start() {
+			var countdown= 5;
+			var lvl1=prompt("Level 1 | Deze heb je goed. Wat is 2 + 2?")
+				if (lvl1=='4') {
+				var lvl2=prompt("Level 2 | Makkie. Wat is 3 + 4?")
+					if (lvl2=='7') {
+					var lvl3=prompt("Level 3 | Een eitje. Wat is 8 + 11?")
+						if (lvl3=='19') {
+						var lvl4=prompt("Level 4 | Wat dacht je van deze. Wat is 15 + 21?")
+							if (lvl4=='36') {
+							var lvl5=prompt("Level 5 | Niet slecht. Wat is 34 + 29?")
+								if (lvl5=='63') {
+								var lvl6=prompt("Level 6 | Lekker bezig. Wat is 53 + 22?")
+									if (lvl6=='75') {
+									var lvl7=prompt("Level 7 | Wojjow. Wat is 14 + 45 + 1?")
+										if (lvl7=='60') {
+										var lvl8=prompt("Level 8 | Je bent pro. Wat is 43 + 19 + 4?")
+											if (lvl8=='66') {
+											var lvl9=prompt("Level 9 | O.F. Wat is 16 + 67 + 11?")
+												if (lvl9=='94') {
+												var lvl10=prompt("Level 10 | Final Question. Wat is 3 x 3?")
+													if (lvl10=='9') {
+														alert("LoL die zag je niet aankomen. Ieder geval je bent goed in rekenen.")
+													} else {
+														alert("Lees die vraag straks nog beter.")
+													}
+
+												} 
+												else {
+													alert("Helaas, je hebt verloren. Probeer opnieuw!")
+												}
+											} 
+											else {
+												alert("Helaas, je hebt verloren. Probeer opnieuw!")
+											}
+										} 
+										else {
+											alert("Helaas, je hebt verloren. Probeer opnieuw!")
+										}
+									} 
+									else {
+										alert("Helaas, je hebt verloren. Probeer opnieuw!")
+									}
+								} 
+								else {
+									alert("Helaas, je hebt verloren. Probeer opnieuw!")
+								}
+							} 
+							else {
+								alert("Helaas, je hebt verloren. Probeer opnieuw!")
+							}
+						} 
+						else {
+							alert("Helaas, je hebt verloren. Probeer opnieuw!")
+						}
+					} 
+					else {
+						alert("Helaas, je hebt verloren. Probeer opnieuw!")
+					}
+				} 
+				else {
+					alert("Helaas, je hebt verloren. Probeer opnieuw!")
+			}
+		}
+	</script>
+
+	<p class="uitlegTitel">
+	Uitleg:
+</p>
+
+	<p class="uitleg">
+	Het spel is heel simpel, er komen 10 rekenvragen op je af en jij moet ze allemaal beantwoorden, als je een foute antwoord intypt, heb je verloren, als je ze allemaal goed hebt, dan heb je gewonnen. 
+</p>
+
+	<p class="succes">
+	SUCCES!
+</p>
+	<p class="naam">
+	Gemaakt door Khizer Butt 18A1
+</p>
+	
+</body>
+</html>
