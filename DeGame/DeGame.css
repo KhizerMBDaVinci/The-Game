@@ -1,0 +1,60 @@
+.groteTitel {
+	text-align: center;
+	font-family: arial;
+	font-size: 75px;
+	color: yellow;
+}
+
+h1 {
+	text-align: center;
+	font-family: arial;
+	font-size: 50px;
+	color: orange;
+}
+
+h2 {
+	text-align: center;
+	font-family: arial;
+	font-size: 50px;
+	color: green;
+}
+
+p {
+	text-align: center;
+	font-family: arial;
+	font-size: 50px;
+	color: green;
+}
+
+body {
+	background-image: url(IMG/Rainbow-background.jpg);
+}
+
+div {
+text-align: center;
+}
+
+.startknop {
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	border-color: red;
+	border-style: double;
+	border-width: 10px;
+	background-color: yellow;
+	background-size: 476px;
+	font-family: impact;
+	font-size: 150px;
+	color: blue;
+	outline: none;
+}
+
+.startknop:hover {
+	background-image: url(IMG/circle.png);
+}
+
+.naamEnzo {
+	font-size: 20px;
+	font-weight: bolder;
+	color: white;
+}
